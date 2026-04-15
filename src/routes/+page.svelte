@@ -90,27 +90,27 @@
 </script>
 
 <svelte:head>
-	<title>Namuxo Lanrepunido</title>
+	<title>Pjuknamo son Jaznovo</title>
 
 	<meta
 		name="description"
-		content="Interactive dictionary for LRI."
+		content="Interactive dictionary for JRP"
 	/>
 	<meta name="keywords" content="LRI, lanrepunido, dictionary, interactive, conlang" />
 
-	<meta property="og:title" content="Namuxo Lanrepunido" />
+	<meta property="og:title" content="Pjuknamo son Jazrepuno" />
 	<meta
 		property="og:description"
-		content="Interactive dictionary for LRI."
+		content="Interactive dictionary for Jazo."
 	/>
 </svelte:head>
 
 <div class="flex justify-between items-end">
-	<h1 class="text-2xl sm:text-3xl font-bold">Namuxo Lanrepunido</h1>
+	<h1 class="text-2xl sm:text-3xl font-bold">Pjuknamo Jazrepuno</h1>
 
 	<div class="flex gap-2">
 		<a
-			href="https://github.com/almostahexagon2/lri-dictionary"
+			href="https://github.com/almostahexagon2/lri-dictionary-nova"
 			class="interactive p-2"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -188,7 +188,7 @@
 	</div>
 </div>
 
-<p class="mt-4">Interactive dictionary for LRI.</p>
+<p class="mt-4">Interactive dictionary for Jazrepuno.</p>
 
 <p class="mt-4">
 	<select class="interactive px-2 py-1" bind:value={$view}>
@@ -228,7 +228,7 @@
 	<input
 		type="text"
 		class="mt-1 block input px-4 py-2"
-		placeholder="xo turovu..."
+		placeholder="turovaj..."
 		bind:value={search}
 	/>
 </p>
