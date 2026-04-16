@@ -13,31 +13,32 @@
 
 	{#if word.noun !== '-'}
 		<p class="space">
-			<b>Noun.</b> &middot;
+			<b>Noun</b> &middot;
 			{word.noun}
 		</p>
 	{/if}
-
+<!--
 	{#if word.adjective !== '-'}
 		<p class="space">
 			<b>Adj.</b> &middot;
 			{word.adjective}
 		</p>
 	{/if}
-
+-->
 	{#if word.verb !== '-'}
 		<p class="space">
 			<b>Verb</b> &middot;
 			{word.verb}
 		</p>
 	{/if}
-
+<!--
 	{#if word.adverb !== '-'}
 		<p>
 			<b>Adv.</b> &middot;
 			{word.adverb}
 		</p>
 	{/if}
+-->
 
 	{#if word.preposition !== '-'}
 		<p>
@@ -48,8 +49,8 @@
 
 	{#if word.malroot}
 		<p class="space">
-			<b>mal{word.word}</b> &middot;
-			{word.malroot}
+			<b>naj{word.word}</b> &middot;
+			{word.najroot}
 		</p>
 	{/if}
 
