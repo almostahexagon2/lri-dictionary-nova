@@ -47,7 +47,7 @@
 		</p>
 	{/if}
 
-	{#if word.malroot}
+	{#if word.malroot     !== '-'}
 		<p class="space">
 			<b>naj{word.word}</b> &middot;
 			{word.najroot}
